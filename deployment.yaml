@@ -5,7 +5,7 @@ metadata:
   labels:
     app: webapp
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: webapp
@@ -19,3 +19,4 @@ spec:
         image: 10.38.91.61/library/harbor_cicd:v5
         ports:
         - containerPort: 80
+
